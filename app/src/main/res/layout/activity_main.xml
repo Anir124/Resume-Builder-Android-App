@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-142dp"
+        android:src="@drawable/blue_bubble" />
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_logo"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resume Builder"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/titleLayout"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/btnPersonalInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_background"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/person_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Info"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_background"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_education3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_background"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_work1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnGeneratePdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate PDF"
+            android:background="#D11818"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginTop="32dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
+

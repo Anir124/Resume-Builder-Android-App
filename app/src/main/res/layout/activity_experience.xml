@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#3F51B5"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project"
+        android:height="50dp"
+        android:background="@drawable/text_box"
+        android:padding="10dp"/>
+
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etPreviousWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Previous work"
+        android:height="50dp"
+        android:background="@drawable/text_box"
+        android:padding="10dp"/>
+
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etSkills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skills"
+        android:height="50dp"
+        android:background="@drawable/text_box"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Languages known"
+        android:height="50dp"
+        android:background="@drawable/text_box"
+        android:padding="10dp"/>
+
+</LinearLayout>
